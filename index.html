@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 	<html lang="en">
 	<head>
+<script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({
@@ -89,7 +92,9 @@
 	</div>
 </div>
 <!-- End Bootstrap Menu -->
-
+<amp-auto-ads type="adsense"
+              data-ad-client="ca-pub-6949057490939955">
+</amp-auto-ads>
 <!-- Slider -->
 <section id="home">
     <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
