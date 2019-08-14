@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 	<html lang="en">
 	<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-6949057490939955",
+          enable_page_level_ads: true
+     });
+</script>
 <meta name="adsmoderncom-site-verification" content="7fdcc25d848138ce050d2e56873487f5">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
