@@ -128,6 +128,50 @@
 <!-- End Slider -->
 
 </header>
+
+<!--[ 300x250 Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
+<script type="text/javascript"> var a = "4316"; var b = "300x250"; var network = "adsmodern.com"; </script>
+<script type="text/javascript" src="http://adsmodern.com/serve/ads.js"></script>
+<!--[ End of the Ad Tag - AdsModern // www.adsmodern.com // ]-->
+
+<!--[ 300x250 Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
+<iframe src="//adsmodern.com/serve/show.php?a=4316&b=300x250" width="300" height="250" frameBorder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+<!--[ End of the Ad Tag - AdsModern // www.adsmodern.com // ]-->
+
+<!--[ 160x600 Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
+<script type="text/javascript"> var a = "4316"; var b = "160x600"; var network = "adsmodern.com"; </script>
+<script type="text/javascript" src="http://adsmodern.com/serve/ads.js"></script>
+<!--[ End of the Ad Tag - AdsModern // www.adsmodern.com // ]-->
+
+<!--[ 160x600 Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
+<iframe src="//adsmodern.com/serve/show.php?a=4316&b=160x600" width="160" height="600" frameBorder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+<!--[ End of the Ad Tag - AdsModern // www.adsmodern.com // ]-->
+
+
+<!--[ 728x90 Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
+<script type="text/javascript"> var a = "4316"; var b = "728x90"; var network = "adsmodern.com"; </script>
+<script type="text/javascript" src="http://adsmodern.com/serve/ads.js"></script>
+<!--[ End of the Ad Tag - AdsModern // www.adsmodern.com // ]-->
+
+<!--[ 728x90 Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
+<iframe src="//adsmodern.com/serve/show.php?a=4316&b=728x90" width="728" height="90" frameBorder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+<!--[ End of the Ad Tag - AdsModern // www.adsmodern.com // ]-->
+
+<!--[ 468x60 Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
+<script type="text/javascript"> var a = "4316"; var b = "468x60"; var network = "adsmodern.com"; </script>
+<script type="text/javascript" src="http://adsmodern.com/serve/ads.js"></script>
+<!--[ End of the Ad Tag - AdsModern // www.adsmodern.com // ]-->
+
+<!--[ 468x60 Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
+<iframe src="//adsmodern.com/serve/show.php?a=4316&b=468x60" width="468" height="60" frameBorder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+<!--[ End of the Ad Tag - AdsModern // www.adsmodern.com // ]--><!--[ 125x125 Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
+<script type="text/javascript"> var a = "4316"; var b = "125x125"; var network = "adsmodern.com"; </script>
+<script type="text/javascript" src="http://adsmodern.com/serve/ads.js"></script>
+<!--[ End of the Ad Tag - AdsModern // www.adsmodern.com // ]-->
+
+<!--[ 125x125 Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
+<iframe src="//adsmodern.com/serve/show.php?a=4316&b=125x125" width="125" height="125" frameBorder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+<!--[ End of the Ad Tag - AdsModern // www.adsmodern.com // ]-->
 	
 <!-- About Xlight -->
 <section class="section-wrapper" id="about">
