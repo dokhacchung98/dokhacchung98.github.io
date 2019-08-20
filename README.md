@@ -3,6 +3,16 @@
 <html>
     <head>
         <meta name="hilltopads-site-verification" content="37b9396c1ca01153c20b3214d6816cebf23d225d" />
+		<script>
+(function(__htas){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = __htas || {};
+s.src = "\/\/finized.co\/c.D\/9o6Rbw2v5DloSDWTQL9uNLDeE\/xwNIjRAk5\/M\/CY0\/0WMJTfEr2NMeDmk_xT";
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
         <script async custom-element="amp-auto-ads"
             src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
             </script>
