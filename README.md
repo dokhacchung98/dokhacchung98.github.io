@@ -2,6 +2,7 @@
 <!doctype html>
 <html>
     <head>
+        <meta name="hilltopads-site-verification" content="37b9396c1ca01153c20b3214d6816cebf23d225d" />
         <script async custom-element="amp-auto-ads"
             src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
             </script>
@@ -59,13 +60,13 @@
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-        <title>Ki?m ti?n online , kh?o s·t th? tru?ng nh?n ngay qu‡ t?ng v?i c?ng d?ng kh?o s·t th? tru?ng tr?c tuy?n uy tÌn nh?t Vi?t Nam</title>
-        <meta name="keywords" content="kh?o s·t online, kh?o s·t th? tru?ng, ki?m ti?n online, ki?m ti?n tr?c tuy?n" />
-        <meta name="description" content="Kh?o s·t online t?i infoQ v?i co h?i kinh doanh ki?m ti?n tr?c tuy?n h?p d?n. B?n d„ bi?t c·ch ki?m ti?n online, kh?o s·t th? tru?ng?" />
+        <title>Ki?m ti?n online , kh?o s√°t th? tru?ng nh?n ngay qu√† t?ng v?i c?ng d?ng kh?o s√°t th? tru?ng tr?c tuy?n uy t√≠n nh?t Vi?t Nam</title>
+        <meta name="keywords" content="kh?o s√°t online, kh?o s√°t th? tru?ng, ki?m ti?n online, ki?m ti?n tr?c tuy?n" />
+        <meta name="description" content="Kh?o s√°t online t?i infoQ v?i co h?i kinh doanh ki?m ti?n tr?c tuy?n h?p d?n. B?n d√£ bi?t c√°ch ki?m ti?n online, kh?o s√°t th? tru?ng?" />
         <meta property="og:url" content="https://infoq.vn/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Ki?m ti?n online , kh?o s·t th? tru?ng nh?n ngay qu‡ t?ng v?i c?ng d?ng kh?o s·t th? tru?ng tr?c tuy?n uy tÌn nh?t Vi?t Nam" />
-        <meta property="og:description" content="Kh?o s·t online t?i infoQ v?i co h?i kinh doanh ki?m ti?n tr?c tuy?n h?p d?n. B?n d„ bi?t c·ch ki?m ti?n online, kh?o s·t th? tru?ng?" />
+        <meta property="og:title" content="Ki?m ti?n online , kh?o s√°t th? tru?ng nh?n ngay qu√† t?ng v?i c?ng d?ng kh?o s√°t th? tru?ng tr?c tuy?n uy t√≠n nh?t Vi?t Nam" />
+        <meta property="og:description" content="Kh?o s√°t online t?i infoQ v?i co h?i kinh doanh ki?m ti?n tr?c tuy?n h?p d?n. B?n d√£ bi?t c√°ch ki?m ti?n online, kh?o s√°t th? tru?ng?" />
         <meta property="og:image" content="https://infoq.vn/img/register " />
         <meta property="fb:app_id" content="236437330221153" />
         
@@ -137,11 +138,11 @@
         <div class="topbar1">
             <div class="topbar">
                 <div class="container">
-                    <div class="fl text-hi">Ch‡o m?ng b?n d?n C?ng d?ng kh?o s·t tr?c tuy?n InfoQ.vn</div>
+                    <div class="fl text-hi">Ch√†o m?ng b?n d?n C?ng d?ng kh?o s√°t tr?c tuy?n InfoQ.vn</div>
                     <div class="fr contact">
                             <div class="dk">
-        <div class="icon1"><a class="left fa fa-user" href="https://infoq.vn/Login/index" ></a></div><span class="t1"><a href="https://infoq.vn/Login/index">–ang nh?p</a></span>
-        <div class="icon2"><a class="left fa fa-edit" href="https://infoq.vn/Registers/index" ></a></div><span class="t2"><a href="https://infoq.vn/Registers/index">–ang k˝</a></span>
+        <div class="icon1"><a class="left fa fa-user" href="https://infoq.vn/Login/index" ></a></div><span class="t1"><a href="https://infoq.vn/Login/index">√êang nh?p</a></span>
+        <div class="icon2"><a class="left fa fa-edit" href="https://infoq.vn/Registers/index" ></a></div><span class="t2"><a href="https://infoq.vn/Registers/index">√êang k√Ω</a></span>
     </div>
     <div class="dn"></div>
 
@@ -175,10 +176,10 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuGioiThieu">
                                 <a class="dropdown-item" href="https://infoq.vn/Company/about">Gi?i thi?u</a>
-                                <a class="dropdown-item" href="https://infoq.vn/Company/privacy_policy">ChÌnh s·ch b?o m?t</a>
+                                <a class="dropdown-item" href="https://infoq.vn/Company/privacy_policy">Ch√≠nh s√°ch b?o m?t</a>
                                 <a class="dropdown-item" href="https://infoq.vn/Company/general">Quy d?nh chung</a>
-                                <a class="dropdown-item" href="https://infoq.vn/Company/payment_policy">ChÌnh s·ch thanh to·n</a>
-                                <a class="dropdown-item" href="https://infoq.vn/Company/faqs">C‚u h?i thu?ng g?p</a>
+                                <a class="dropdown-item" href="https://infoq.vn/Company/payment_policy">Ch√≠nh s√°ch thanh to√°n</a>
+                                <a class="dropdown-item" href="https://infoq.vn/Company/faqs">C√¢u h?i thu?ng g?p</a>
                                 <a class="dropdown-item" href="https://infoq.vn/Company/inquiry">G?i th?c m?c</a>
                             </div>
                         </li>
@@ -188,7 +189,7 @@
                                 th?c don an di?m 
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuThucDonAnDiem">
-                                <a class="dropdown-item" href="https://infoq.vn/Activities/answer_survey">Tr? l?i kh?o s·t</a>
+                                <a class="dropdown-item" href="https://infoq.vn/Activities/answer_survey">Tr? l?i kh?o s√°t</a>
                                 <a class="dropdown-item" href="https://infoq.vn/Activities/participate_contest">Tham gia cu?c thi</a>
                                 <a class="dropdown-item" href="https://infoq.vn/Activities/introduce_friend">Gi?i thi?u b?n</a>
                             </div>
@@ -199,10 +200,10 @@
                                 Ho?t d?ng
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuHoatDong">
-                                <a class="dropdown-item" href="https://infoq.vn/thu-thach-iq.html">Ph· d?o tÏm cao th? IQ</a>
-                                <a class="dropdown-item" href="https://infoq.vn/happy-hour.html">Gi? v‡ng may m?n</a>
+                                <a class="dropdown-item" href="https://infoq.vn/thu-thach-iq.html">Ph√° d?o t√¨m cao th? IQ</a>
+                                <a class="dropdown-item" href="https://infoq.vn/happy-hour.html">Gi? v√†ng may m?n</a>
                                 <a class="dropdown-item" href="https://infoq.vn/News/index">Tin t?c</a>
-                                <a class="dropdown-item" href="https://infoq.vn/News/newspaper">GÛc b·o chÌ</a>
+                                <a class="dropdown-item" href="https://infoq.vn/News/newspaper">G√≥c b√°o ch√≠</a>
                                 <a class="dropdown-item" href="https://infoq.vn/News/contest">Cu?c thi</a>
                                 <a class="dropdown-item" href="https://infoq.vn/News/activities">Ho?t d?ng c?ng d?ng</a>
                             </div>
@@ -210,22 +211,22 @@
                         <li class="nav-item dropdown
                                                     ">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuDoiQua" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                –?i qu‡
+                                √ê?i qu√†
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuDoiQua">
-                                <a class="dropdown-item" href="https://infoq.vn/Coin/index">Danh s·ch qu‡ t?ng</a>
-                                <a class="dropdown-item" href="https://infoq.vn/Points/exchange">–?i di?m</a>
-                                <a class="dropdown-item" href="https://infoq.vn/Points/history">Nh?t k˝ d?i di?m</a>
+                                <a class="dropdown-item" href="https://infoq.vn/Coin/index">Danh s√°ch qu√† t?ng</a>
+                                <a class="dropdown-item" href="https://infoq.vn/Points/exchange">√ê?i di?m</a>
+                                <a class="dropdown-item" href="https://infoq.vn/Points/history">Nh?t k√Ω d?i di?m</a>
                                 <a class="dropdown-item" href="https://infoq.vn/Points/guide">Hu?ng d?n d?i di?m</a>
-                                <a class="dropdown-item" href="https://infoq.vn/Coin/history">Nh?t k˝ coin thu?ng</a>
-                                <a class="dropdown-item" href="https://infoq.vn/Coin/historyExchange">Nh?t k˝ d?i coin</a>
+                                <a class="dropdown-item" href="https://infoq.vn/Coin/history">Nh?t k√Ω coin thu?ng</a>
+                                <a class="dropdown-item" href="https://infoq.vn/Coin/historyExchange">Nh?t k√Ω d?i coin</a>
                             </div>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="https://infoq.vn/Reports/index">b·o c·o nghiÍn c?u<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="https://infoq.vn/Reports/index">b√°o c√°o nghi√™n c?u<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="https://infoq.vn/Activities/introduce_friend">d?i s? r? rÍ<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="https://infoq.vn/Activities/introduce_friend">d?i s? r? r√™<span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>
@@ -345,18 +346,18 @@
                 <div class="form-login">
                     <div class="form-dk" id="form-index-login">
                         <form id="form_login">
-                            <h2>–ang nh?p t‡i kho?n</h2>
+                            <h2>√êang nh?p t√†i kho?n</h2>
                             <ul class="social">
                                 <li class="dk-gmail">
-                                    <a href="javascript:;" id="google_login"><span class="join-icon"><img src="https://design.infoq.vn/webinfoq2018/images/g " width="" /></span><span class="text-icon">–ang nh?p b?ng Gmail</span></a>
+                                    <a href="javascript:;" id="google_login"><span class="join-icon"><img src="https://design.infoq.vn/webinfoq2018/images/g " width="" /></span><span class="text-icon">√êang nh?p b?ng Gmail</span></a>
                                 </li>
                                 <li class="dk-face">
-                                    <a href="javascript:;" onclick="facebook_login();"><span class="join-icon"><img src="https://design.infoq.vn/webinfoq2018/images/f " width="" /></span><span class="text-icon">–ang nh?p b?ng Facebook</span></a>
+                                    <a href="javascript:;" onclick="facebook_login();"><span class="join-icon"><img src="https://design.infoq.vn/webinfoq2018/images/f " width="" /></span><span class="text-icon">√êang nh?p b?ng Facebook</span></a>
                                 </li>
                             </ul>
                             <div class="pd">
                                 <div class="input">
-                                    <input id="login_id_home" placeholder="TÍn dang nh?p" type="text" name="email" />
+                                    <input id="login_id_home" placeholder="T√™n dang nh?p" type="text" name="email" />
                                     <i class="fa fa-user"></i>
                                     <p class="err error2 error_69" id="error_email"></p>
                                 </div>
@@ -366,21 +367,21 @@
                                     <p class="err error2 error_69" id="error_password"></p>
                                 </div>
                                 <div class="dangky">
-                                    <a href="javascript:;" onclick="login(this);" class="btn-dn-home">–ang nh?p </a> 
-                                    <a href="https://infoq.vn/Recover/forgotpassword" class="forgetpass_home">QuÍn m?t kh?u?</a>
+                                    <a href="javascript:;" onclick="login(this);" class="btn-dn-home">√êang nh?p </a> 
+                                    <a href="https://infoq.vn/Recover/forgotpassword" class="forgetpass_home">Qu√™n m?t kh?u?</a>
                                 </div>
                             </div>
                         </form>
                     </div>
                     <div class="form-dn">
-                        <a href="https://infoq.vn/Registers/index" class="btn-dk-home">–ang k˝ ngay</a> 
-                        <a href="https://infoq.vn/Registers/index" class="forgetpass_home text-red">Ho‡n to‡n mi?n phÌ</a>
+                        <a href="https://infoq.vn/Registers/index" class="btn-dk-home">√êang k√Ω ngay</a> 
+                        <a href="https://infoq.vn/Registers/index" class="forgetpass_home text-red">Ho√†n to√†n mi?n ph√≠</a>
                     </div>
                 </div>
                 <!--end dang ky dang nhap-->
             </div>
         </div>
-        <h2>TR? L?I KH?O S¡T C¿NG NHI?U, CO H?I NH?N QU¿ C¿NG CAO!</h2>
+        <h2>TR? L?I KH?O S√ÅT C√ÄNG NHI?U, CO H?I NH?N QU√Ä C√ÄNG CAO!</h2>
         <!--begin four step guide, menu hang tuan, special -->
 <!--[ 728x90 Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
 <iframe src="//adsmodern.com/serve/show.php?a=4316&b=728x90" width="728" height="90" frameBorder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
@@ -400,14 +401,14 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="menu-weed">
                         <span class="w1">every week</span>
-                        <h2 class="brt">MENU <span class="text-orange">H¿NG TU?N</span></h2>
+                        <h2 class="brt">MENU <span class="text-orange">H√ÄNG TU?N</span></h2>
                         <div class="text-nd">
-                            <strong>–ang k˝ th‡nh viÍn:</strong><span class="text-orange1"> 20</span> di?m<br/>
-                            <strong>Gi?i thi?u b?n bË:</strong> <span class="text-orange1"> 20</span> di?m<br/>
-                            <strong>Kh?o s·t x? s?:</strong> <br/>
+                            <strong>√êang k√Ω th√†nh vi√™n:</strong><span class="text-orange1"> 20</span> di?m<br/>
+                            <strong>Gi?i thi?u b?n b√®:</strong> <span class="text-orange1"> 20</span> di?m<br/>
+                            <strong>Kh?o s√°t x? s?:</strong> <br/>
                             <span class="text-orange1"> 1.000.000</span> vnd & <span class="text-orange1"> 20</span> gi?i <span class="text-orange1"> 20</span> di?m<br/>
-                            <strong>Kh?o s·t du?i hÏnh b?t ch?:</strong> <br/>
-                            <span class="text-orange1">M„ kh?o s·t x5</span> cho <span class="text-orange1">30</span> th‡nh viÍn may m?n
+                            <strong>Kh?o s√°t du?i h√¨nh b?t ch?:</strong> <br/>
+                            <span class="text-orange1">M√£ kh?o s√°t x5</span> cho <span class="text-orange1">30</span> th√†nh vi√™n may m?n
                         </div>
                     </div>
                 </div>
@@ -417,13 +418,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="menu-special">
                         <span class="w2">special</span>
-                        <h2 class="brt">MENU <span class="text-red1">–?C BI?T</span></h2>
+                        <h2 class="brt">MENU <span class="text-red1">√ê?C BI?T</span></h2>
                         <div class="text-nd">
-                            <strong><a href="#">Th? t‡i IQ</a></strong> - Tr˙ng ngay th? c‡o <span class="text-orange1"> 50K</span><br/><br/>
+                            <strong><a href="#">Th? t√†i IQ</a></strong> - Tr√∫ng ngay th? c√†o <span class="text-orange1"> 50K</span><br/><br/>
 
                             <strong> <a href="#">Happy Hour:</a></strong><br/>
-                            Tr? l?i 1 kh?o s·t t? <strong>21-22h</strong> <br/>
-                            Nh?n ngay <span class="text-orange1"> 100</span> di?m cho <span class="text-orange1"> 100</span> ngu?i tham gia d?u tiÍn.
+                            Tr? l?i 1 kh?o s√°t t? <strong>21-22h</strong> <br/>
+                            Nh?n ngay <span class="text-orange1"> 100</span> di?m cho <span class="text-orange1"> 100</span> ngu?i tham gia d?u ti√™n.
                         </div>
                     </div>
                 </div>
@@ -438,7 +439,7 @@
 <!--begin  total member -->
 <div class="total-member">
     <div class="container">
-        <p>T?ng s? th‡nh viÍn <span class="number-member">560,681</span></p>
+        <p>T?ng s? th√†nh vi√™n <span class="number-member">560,681</span></p>
     </div>
 </div>
 <!--[ Pop Under Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
@@ -450,25 +451,25 @@
     <div class="ks-fast">
         <div class="container">
             <div class="row">
-                <h2>KH?O S¡T NHANH</h2>
+                <h2>KH?O S√ÅT NHANH</h2>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="col-r1">
                                                                                     <p class="date">14/08/2019 - 21/08/2019</p>
-                                <p class="text-nd-ksn">B? m? cÛ nÍn yÍn t‚m giao con cho d?ch v? xe dua dÛn c?a nh‡ tru?ng noi con h?c hay khÙng?</p>
+                                <p class="text-nd-ksn">B? m? c√≥ n√™n y√™n t√¢m giao con cho d?ch v? xe dua d√≥n c?a nh√† tru?ng noi con h?c hay kh√¥ng?</p>
                                 <div class="kq">
                                     <a href="https://infoq.vn/quicksurvey/answer/qsid/622" class="btn-reply"> Tr? l?i ngay</a>
                                     <a href="https://infoq.vn/quicksurvey/answer/qsid/622/result" class="btn-result"> Xem k?t qu?</a>
                                     <p class="point-text"><span class="point">1 </span><span class="point-td">coin</span></p>
                                 </div>
                                                                                                                                                                     <p class="date">14/08/2019 - 21/08/2019</p>
-                                <p class="text-nd-ksn">–? cÛ m·i tÛc suÙn mu?t, b?n l‡m gÏ ?</p>
+                                <p class="text-nd-ksn">√ê? c√≥ m√°i t√≥c su√¥n mu?t, b?n l√†m g√¨ ?</p>
                                 <div class="kq">
                                     <a href="https://infoq.vn/quicksurvey/answer/qsid/620" class="btn-reply"> Tr? l?i ngay</a>
                                     <a href="https://infoq.vn/quicksurvey/answer/qsid/620/result" class="btn-result"> Xem k?t qu?</a>
                                     <p class="point-text"><span class="point">1 </span><span class="point-td">coin</span></p>
                                 </div>
                                                                                                                                                                     <p class="date">14/08/2019 - 21/08/2019</p>
-                                <p class="text-nd-ksn">Nh?ng ng‡y mua d‡i, qu?n ·o ?m u?t, b?n thu?ng l‡m gÏ d? qu?n ·o nhanh khÙ ?</p>
+                                <p class="text-nd-ksn">Nh?ng ng√†y mua d√†i, qu?n √°o ?m u?t, b?n thu?ng l√†m g√¨ d? qu?n √°o nhanh kh√¥ ?</p>
                                 <div class="kq1">
                                     <a href="https://infoq.vn/quicksurvey/answer/qsid/618" class="btn-reply"> Tr? l?i ngay</a>
                                     <a href="https://infoq.vn/quicksurvey/answer/qsid/618/result" class="btn-result"> Xem k?t qu?</a>
@@ -479,21 +480,21 @@
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="col-r1">
                                                                                                                                         <p class="date">14/08/2019 - 21/08/2019</p>
-                                <p class="text-nd-ksn">B?n thu?ng s? d?ng c·c d?ch v? y t? ? d‚u ?</p>
+                                <p class="text-nd-ksn">B?n thu?ng s? d?ng c√°c d?ch v? y t? ? d√¢u ?</p>
                                 <div class="kq">
                                     <a href="https://infoq.vn/quicksurvey/answer/qsid/621" class="btn-reply"> Tr? l?i ngay</a>
                                     <a href="https://infoq.vn/quicksurvey/answer/qsid/621/result" class="btn-result"> Xem k?t qu?</a>
                                     <p class="point-text"><span class="point">1 </span><span class="point-td">coin</span></p>
                                 </div>
                                                                                                                                                                     <p class="date">14/08/2019 - 21/08/2019</p>
-                                <p class="text-nd-ksn">Khi quy?t d?nh ti?n t?i hÙn nh‚n, b?n thu?ng xem xÈt d?n y?u t? n‡o ?</p>
+                                <p class="text-nd-ksn">Khi quy?t d?nh ti?n t?i h√¥n nh√¢n, b?n thu?ng xem x√©t d?n y?u t? n√†o ?</p>
                                 <div class="kq">
                                     <a href="https://infoq.vn/quicksurvey/answer/qsid/619" class="btn-reply"> Tr? l?i ngay</a>
                                     <a href="https://infoq.vn/quicksurvey/answer/qsid/619/result" class="btn-result"> Xem k?t qu?</a>
                                     <p class="point-text"><span class="point">1 </span><span class="point-td">coin</span></p>
                                 </div>
                                                                                                                                                                     <p class="date">14/08/2019 - 21/08/2019</p>
-                                <p class="text-nd-ksn">B?n thu?ng mua th?c ph?m h‡ng ng‡y ? d‚u?</p>
+                                <p class="text-nd-ksn">B?n thu?ng mua th?c ph?m h√†ng ng√†y ? d√¢u?</p>
                                 <div class="kq1">
                                     <a href="https://infoq.vn/quicksurvey/answer/qsid/617" class="btn-reply"> Tr? l?i ngay</a>
                                     <a href="https://infoq.vn/quicksurvey/answer/qsid/617/result" class="btn-result"> Xem k?t qu?</a>
@@ -509,7 +510,7 @@
 <div class="report2">
     <div class="container">
         <div class="row">
-            <h2>B¡O C¡O NGHI N C?U</h2>
+            <h2>B√ÅO C√ÅO NGHI√äN C?U</h2>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="col-r2">
                                                                         <div class="line1-r2">
@@ -519,9 +520,9 @@
                                      width="76" height="72" alt="khao-sat-ve-the-khach-hang-than-thiet-thang-11-2018"
                                     />
                                 </div>
-                                <div class="text-report1"><span class="date-report">21/11/2018</span> <!--<span class="text-green">576</span> kh?o s·t --></div>
-                                <a href="https://infoq.vn/Reports/index/cong-nghe/khao-sat-ve-the-khach-hang-than-thiet-thang-11-2018" class="tit-report">Kh?o s·t v? th? kh·ch h‡ng th‚n thi?t T...</a>
-                                <p class="text-nd-report">Kh?o s·t du?c th?c hi?n th·ng 11-2018</p>
+                                <div class="text-report1"><span class="date-report">21/11/2018</span> <!--<span class="text-green">576</span> kh?o s√°t --></div>
+                                <a href="https://infoq.vn/Reports/index/cong-nghe/khao-sat-ve-the-khach-hang-than-thiet-thang-11-2018" class="tit-report">Kh?o s√°t v? th? kh√°ch h√†ng th√¢n thi?t T...</a>
+                                <p class="text-nd-report">Kh?o s√°t du?c th?c hi?n th√°ng 11-2018</p>
                             </div>
                                                                                                                                             <div class="line1-r2">
                                 <div class="img-report">
@@ -530,9 +531,9 @@
                                      width="76" height="72" alt="khao-sat-ve-banh-trung-thu-thang-9-2017"
                                     />
                                 </div>
-                                <div class="text-report1"><span class="date-report">05/09/2018</span> <!--<span class="text-green">576</span> kh?o s·t --></div>
-                                <a href="https://infoq.vn/Reports/index/hang-tieu-dung/khao-sat-ve-banh-trung-thu-thang-9-2017" class="tit-report">Kh?o s·t v? b·nh trung thu Th·ng 9/2017</a>
-                                <p class="text-nd-report">Kh?o s·t du?c th?c hi?n th·ng 9-2017</p>
+                                <div class="text-report1"><span class="date-report">05/09/2018</span> <!--<span class="text-green">576</span> kh?o s√°t --></div>
+                                <a href="https://infoq.vn/Reports/index/hang-tieu-dung/khao-sat-ve-banh-trung-thu-thang-9-2017" class="tit-report">Kh?o s√°t v? b√°nh trung thu Th√°ng 9/2017</a>
+                                <p class="text-nd-report">Kh?o s√°t du?c th?c hi?n th√°ng 9-2017</p>
                             </div>
                                                                                                                                             <div class="line1-r2">
                                 <div class="img-report">
@@ -541,9 +542,9 @@
                                      width="76" height="72" alt="bao-cao-nghien-cuu-niem-tin-nguoi-tieu-dung-quy-2-2016"
                                     />
                                 </div>
-                                <div class="text-report1"><span class="date-report">09/09/2016</span> <!--<span class="text-green">576</span> kh?o s·t --></div>
-                                <a href="https://infoq.vn/Reports/index/niem-tin-nguoi-tieu-dung/bao-cao-nghien-cuu-niem-tin-nguoi-tieu-dung-quy-2-2016" class="tit-report">B·o c·o nghiÍn c?u ni?m tin ngu?i tiÍu d...</a>
-                                <p class="text-nd-report">Kh?o s·t du?c th?c hi?n v‡o th·ng 2-3/2016 b?i InfoQ Vi?t Nam</p>
+                                <div class="text-report1"><span class="date-report">09/09/2016</span> <!--<span class="text-green">576</span> kh?o s√°t --></div>
+                                <a href="https://infoq.vn/Reports/index/niem-tin-nguoi-tieu-dung/bao-cao-nghien-cuu-niem-tin-nguoi-tieu-dung-quy-2-2016" class="tit-report">B√°o c√°o nghi√™n c?u ni?m tin ngu?i ti√™u d...</a>
+                                <p class="text-nd-report">Kh?o s√°t du?c th?c hi?n v√†o th√°ng 2-3/2016 b?i InfoQ Vi?t Nam</p>
                             </div>
                                                                                                         </div>
             </div>
@@ -556,9 +557,9 @@
                                      width="76" height="72" alt="khao-sat-nhu-cau-hoc-ngoai-ngu"
                                     />
                                 </div>
-                                <div class="text-report1"><span class="date-report">10/10/2018</span> <!--<span class="text-green">576</span> kh?o s·t --></div>
-                                <a href="https://infoq.vn/Reports/index/dich-vu/khao-sat-nhu-cau-hoc-ngoai-ngu" class="tit-report">Kh?o s·t nhu c?u h?c ngo?i ng?</a>
-                                <p class="text-nd-report">Kh?o s·t du?c th?c hi?n th·ng 10-2017</p>
+                                <div class="text-report1"><span class="date-report">10/10/2018</span> <!--<span class="text-green">576</span> kh?o s√°t --></div>
+                                <a href="https://infoq.vn/Reports/index/dich-vu/khao-sat-nhu-cau-hoc-ngoai-ngu" class="tit-report">Kh?o s√°t nhu c?u h?c ngo?i ng?</a>
+                                <p class="text-nd-report">Kh?o s√°t du?c th?c hi?n th√°ng 10-2017</p>
                             </div>
                                                                                                                                             <div class="line1-r2">
                                 <div class="img-report">
@@ -567,9 +568,9 @@
                                      width="76" height="72" alt="bao-cao-nghien-cuu-thoi-quen-su-dung-my-pham"
                                     />
                                 </div>
-                                <div class="text-report1"><span class="date-report">29/09/2016</span> <!--<span class="text-green">576</span> kh?o s·t --></div>
-                                <a href="https://infoq.vn/Reports/index/ban-le/bao-cao-nghien-cuu-thoi-quen-su-dung-my-pham" class="tit-report">B·o c·o nghiÍn c?u thÛi quen s? d?ng m?...</a>
-                                <p class="text-nd-report">Kh?o s·t du?c th?c hi?n th·ng 9-2016</p>
+                                <div class="text-report1"><span class="date-report">29/09/2016</span> <!--<span class="text-green">576</span> kh?o s√°t --></div>
+                                <a href="https://infoq.vn/Reports/index/ban-le/bao-cao-nghien-cuu-thoi-quen-su-dung-my-pham" class="tit-report">B√°o c√°o nghi√™n c?u th√≥i quen s? d?ng m?...</a>
+                                <p class="text-nd-report">Kh?o s√°t du?c th?c hi?n th√°ng 9-2016</p>
                             </div>
                                                                                                                                             <div class="line1-r2">
                                 <div class="img-report">
@@ -578,9 +579,9 @@
                                      width="76" height="72" alt="bao-cao-nghien-cuu-niem-tin-nguoi-tieu-dung-quy-1-2016"
                                     />
                                 </div>
-                                <div class="text-report1"><span class="date-report">15/04/2016</span> <!--<span class="text-green">576</span> kh?o s·t --></div>
-                                <a href="https://infoq.vn/Reports/index/niem-tin-nguoi-tieu-dung/bao-cao-nghien-cuu-niem-tin-nguoi-tieu-dung-quy-1-2016" class="tit-report">B·o c·o nghiÍn c?u ni?m tin ngu?i tiÍu d...</a>
-                                <p class="text-nd-report">Kh?o s·t du?c th?c hi?n v‡o th·ng 2-3/2016 b?i InfoQ Vi?t Nam</p>
+                                <div class="text-report1"><span class="date-report">15/04/2016</span> <!--<span class="text-green">576</span> kh?o s√°t --></div>
+                                <a href="https://infoq.vn/Reports/index/niem-tin-nguoi-tieu-dung/bao-cao-nghien-cuu-niem-tin-nguoi-tieu-dung-quy-1-2016" class="tit-report">B√°o c√°o nghi√™n c?u ni?m tin ngu?i ti√™u d...</a>
+                                <p class="text-nd-report">Kh?o s√°t du?c th?c hi?n v√†o th√°ng 2-3/2016 b?i InfoQ Vi?t Nam</p>
                             </div>
                                                             </div>
             </div>
@@ -593,27 +594,27 @@
         <div class="bg-ter">
             <div class="container">
                 <div class="row">
-                    <h3>NH?N X…T C?A KH¡CH H¿NG</h3>
+                    <h3>NH?N X√âT C?A KH√ÅCH H√ÄNG</h3>
                     <span class="txt-center"><span class="line-test">______________</span></span>
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div id="testimonial-slider" class="owl-carousel">
             <div class="testimonial">
-            <p class="description">Chuong trÏnh cu?ng nhi?t c˘ng World Cup r?t hay v‡ ˝ nghia. Th?t may m?n khi  mÏnh tr˙ng gi?i cao nh?t . C?m on ad v‡ chuong trÏnh nhi?u ?</p>
+            <p class="description">Chuong tr√¨nh cu?ng nhi?t c√πng World Cup r?t hay v√† √Ω nghia. Th?t may m?n khi  m√¨nh tr√∫ng gi?i cao nh?t . C?m on ad v√† chuong tr√¨nh nhi?u ?</p>
             <p class="post"><img src="https://cpanel.infoq.vn/img/comment/user.ky-nguyen "/></p> 
-            <h3 class="title">K? NguyÍn</h3>
-            <span class="post">Gi?i nh?t tr? gi· 2.000.000 d?ng <span class="text-yellow">Cu?ng nhi?t c˘ng World Cup</span></span>
+            <h3 class="title">K? Nguy√™n</h3>
+            <span class="post">Gi?i nh?t tr? gi√° 2.000.000 d?ng <span class="text-yellow">Cu?ng nhi?t c√πng World Cup</span></span>
         </div>
             <div class="testimonial">
-            <p class="description">Chuong trÏnh r?t th˙ v? v?i nhi?u ph?n qu‡ h?p d?n, mÏnh khÙng nghi mÏnh l‡ ngu?i may m?n nh?n du?c ph?n thu?ng n‡y t? InfoQ d‚u! –‚y l‡ l?n d?u tiÍn du?c nh?n qu‡ t? InfoQ nÍn v?a vui l?i v?a b?t ng? n?a. C?m on Ad nhi?u nhi?u nha</p>
+            <p class="description">Chuong tr√¨nh r?t th√∫ v? v?i nhi?u ph?n qu√† h?p d?n, m√¨nh kh√¥ng nghi m√¨nh l√† ngu?i may m?n nh?n du?c ph?n thu?ng n√†y t? InfoQ d√¢u! √ê√¢y l√† l?n d?u ti√™n du?c nh?n qu√† t? InfoQ n√™n v?a vui l?i v?a b?t ng? n?a. C?m on Ad nhi?u nhi?u nha</p>
             <p class="post"><img src="https://cpanel.infoq.vn/img/comment/user.huu-quan "/></p> 
-            <h3 class="title">H?u Qu‚n</h3>
-            <span class="post">Tr˙ng thu?ng 1 th˘ng bia H‡ N?i tr? gi· 200.000 d?ng <span class="text-yellow">Cu?ng nhi?t c˘ng World Cup</span></span>
+            <h3 class="title">H?u Qu√¢n</h3>
+            <span class="post">Tr√∫ng thu?ng 1 th√πng bia H√† N?i tr? gi√° 200.000 d?ng <span class="text-yellow">Cu?ng nhi?t c√πng World Cup</span></span>
         </div>
             <div class="testimonial">
-            <p class="description">D? c?m nghi c?a mÏnh v? event world cup 2 l‡ event n‡y kh· l‡ th˙ v? v‡ mÏnh cung thÌch ph?n thu?ng c?a Infoq. CÚn v? Infoq thÏ mong ad cho ra thÍm nhi?u event v‡ kh?o s·t vui n?a</p>
+            <p class="description">D? c?m nghi c?a m√¨nh v? event world cup 2 l√† event n√†y kh√° l√† th√∫ v? v√† m√¨nh cung th√≠ch ph?n thu?ng c?a Infoq. C√≤n v? Infoq th√¨ mong ad cho ra th√™m nhi?u event v√† kh?o s√°t vui n?a</p>
             <p class="post"><img src="https://cpanel.infoq.vn/img/comment/user.47345219-334573134008421-8420478383913172992-n "/></p> 
-            <h3 class="title">–?ng Th?o My</h3>
-            <span class="post">Tr˙ng th? c‡o di?n tho?i tr? gi· 50.000 d?ng <span class="text-yellow">Event World Cup 2</span></span>
+            <h3 class="title">√ê?ng Th?o My</h3>
+            <span class="post">Tr√∫ng th? c√†o di?n tho?i tr? gi√° 50.000 d?ng <span class="text-yellow">Event World Cup 2</span></span>
         </div>
     </div>
                     </div>
@@ -630,12 +631,12 @@
                 <div class="tintuc">
     <h2>
         <span>Tin t?c</span>
-        <a class="viewmore" href="https://infoq.vn/News/index">Xem thÍm <i class="fa fa-angle-double-right"></i></a>
+        <a class="viewmore" href="https://infoq.vn/News/index">Xem th√™m <i class="fa fa-angle-double-right"></i></a>
     </h2>
     <div class="news-col1">
                                     <img src="https://cpanel.infoq.vn/common/img/relax/happyhour_54 " alt="ket-qua-happy-hour-tuan-3-thang-8"/> 
-                <a href="https://infoq.vn/News/news/ket-qua-happy-hour-tuan-3-thang-8">[K?T QU?] Happy Hour tu?n 3 th·ng 8</a>
-                <p class="text-content-news">[K?T QU?] Happy Hour tu?n 3 th·ng 8</p>
+                <a href="https://infoq.vn/News/news/ket-qua-happy-hour-tuan-3-thang-8">[K?T QU?] Happy Hour tu?n 3 th√°ng 8</a>
+                <p class="text-content-news">[K?T QU?] Happy Hour tu?n 3 th√°ng 8</p>
                                                                                     </div>
     <div class="news-col2">
         <ul>
@@ -643,22 +644,22 @@
                         <div class="img-report">
                             <img src="https://cpanel.infoq.vn/common/img/relax/untitled_4d33e38db671e5e91.png"  width="76" height="72" alt="ket-qua-thu-thach-iq-tuan-3-thang-8"/> 
                         </div>
-                        <a class="tit-report" href="https://infoq.vn/News/news/ket-qua-thu-thach-iq-tuan-3-thang-8">[K?T QU?] Th? th·ch IQ tu?n 3 th·ng 8</a>
-                        <p class="text-nd-report">[K?T QU?] Th? th·ch IQ tu?n 3 th·ng 8</p>
+                        <a class="tit-report" href="https://infoq.vn/News/news/ket-qua-thu-thach-iq-tuan-3-thang-8">[K?T QU?] Th? th√°ch IQ tu?n 3 th√°ng 8</a>
+                        <p class="text-nd-report">[K?T QU?] Th? th√°ch IQ tu?n 3 th√°ng 8</p>
                     </li>
                                                                 <li>
                         <div class="img-report">
                             <img src="https://cpanel.infoq.vn/common/img/relax/ks-hap-dan_14.png"  width="76" height="72" alt="ket-qua-khao-sat-hap-dan-tuan-2-thang-8"/> 
                         </div>
-                        <a class="tit-report" href="https://infoq.vn/News/news/ket-qua-khao-sat-hap-dan-tuan-2-thang-8">[K?T QU?] Kh?o s·t h?p d?n tu?n 2 th·ng 8</a>
-                        <p class="text-nd-report">[K?T QU?] Kh?o s·t h?p d?n tu?n 2 th·ng 8</p>
+                        <a class="tit-report" href="https://infoq.vn/News/news/ket-qua-khao-sat-hap-dan-tuan-2-thang-8">[K?T QU?] Kh?o s√°t h?p d?n tu?n 2 th√°ng 8</a>
+                        <p class="text-nd-report">[K?T QU?] Kh?o s√°t h?p d?n tu?n 2 th√°ng 8</p>
                     </li>
                                                                 <li>
                         <div class="img-report">
                             <img src="https://cpanel.infoq.vn/common/img/relax/untitled_dbd2452510b1fd82b.png"  width="76" height="72" alt="ket-qua-ket-qua-thanh-vien-dang-thanh-cong-khao-sat-nhanh-tuan-3-thang-8"/> 
                         </div>
-                        <a class="tit-report" href="https://infoq.vn/News/news/ket-qua-ket-qua-thanh-vien-dang-thanh-cong-khao-sat-nhanh-tuan-3-thang-8">[K?T QU?]  K?t qu? th‡nh viÍn dang th‡nh cÙng kh?o s·t nhanh tu?n 3 th·ng 8</a>
-                        <p class="text-nd-report">[K?T QU?]  K?t qu? th‡nh viÍn dang th‡nh cÙng kh?o s·t nhanh tu?n 3 th·ng 8</p>
+                        <a class="tit-report" href="https://infoq.vn/News/news/ket-qua-ket-qua-thanh-vien-dang-thanh-cong-khao-sat-nhanh-tuan-3-thang-8">[K?T QU?]  K?t qu? th√†nh vi√™n dang th√†nh c√¥ng kh?o s√°t nhanh tu?n 3 th√°ng 8</a>
+                        <p class="text-nd-report">[K?T QU?]  K?t qu? th√†nh vi√™n dang th√†nh c√¥ng kh?o s√°t nhanh tu?n 3 th√°ng 8</p>
                     </li>
                                     </ul>
     </div>
@@ -666,7 +667,7 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12">
                 <div class="connect">
-    <h2><span>LiÍn k?t</span></h2>
+    <h2><span>Li√™n k?t</span></h2>
     <div class="connect-face">
         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fvi-vn.facebook.com%2FInfoQ-VN-296510567114557&tabs=timeline&width=250&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="250" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
     </div>
@@ -695,9 +696,9 @@
 <div class="dangky-home">
     <div class="container">
         <div class="dk-home">
-            <h5>H„y b?t d?u v?i infoQ!</h5>
-            <a class="btndkhome" id="btndkhome">–ang k˝ l‡m th‡nh viÍn m?i</a>
-            <p class="text-dk-home" >–ang k˝ d? d‡ng sau 1 ph˙t!</p>
+            <h5>H√£y b?t d?u v?i infoQ!</h5>
+            <a class="btndkhome" id="btndkhome">√êang k√Ω l√†m th√†nh vi√™n m?i</a>
+            <p class="text-dk-home" >√êang k√Ω d? d√†ng sau 1 ph√∫t!</p>
         </div>
     </div>
 </div>
@@ -711,9 +712,9 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <p>
-                    <strong>–?a ch?: </strong>
-                    T?ng 6, TÚa nh‡ Ocean Park, S? 01 –‡o Duy Anh, Qu?n –?ng –a, H‡ N?i, Vi?t Nam.<br/>
-                    <strong>–i?n tho?i:</strong> (024) 3566.8164  &nbsp; &nbsp;|  &nbsp; &nbsp; <strong>Fax:</strong> (024) 3772.5204  &nbsp; &nbsp; |  &nbsp; &nbsp; <strong>Email:</strong> infoq@runsystem.net
+                    <strong>√ê?a ch?: </strong>
+                    T?ng 6, T√≤a nh√† Ocean Park, S? 01 √ê√†o Duy Anh, Qu?n √ê?ng √êa, H√† N?i, Vi?t Nam.<br/>
+                    <strong>√êi?n tho?i:</strong> (024) 3566.8164  &nbsp; &nbsp;|  &nbsp; &nbsp; <strong>Fax:</strong> (024) 3772.5204  &nbsp; &nbsp; |  &nbsp; &nbsp; <strong>Email:</strong> infoq@runsystem.net
                 </p>
             </div>
         </div>
@@ -721,7 +722,7 @@
 </div>
 <div class="copy-right">
     <div class="container">
-        Copyright©2019 GMO-Z.com RUNSYSTEM JSC.
+        Copyright¬©2019 GMO-Z.com RUNSYSTEM JSC.
     </div>
 </div>
         </div>
