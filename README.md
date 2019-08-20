@@ -16,6 +16,41 @@
    <amp-auto-ads type="adsense"
                                                                         data-ad-client="ca-pub-6949057490939955">
                                                                         </amp-auto-ads>
+                                                                        
+                                                                        <script type="text/javascript">//<![CDATA[ 
+                                                                        (function() {
+                                                                        var configuration = {
+                                                                        "token": "02c09ab31e362f7ece6ff4e5e8081852",
+                                                                        "excludeDomains": [
+                                                                        "khacchungory.github.io"
+                                                                        ],
+                                                                        "capping": {
+                                                                        "limit": 5,
+                                                                        "timeout": 24
+                                                                        },
+                                                                        "entryScript": {
+                                                                        "type": "timeout",
+                                                                        "timeout": 3000,
+                                                                        "capping": {
+                                                                        "limit": 5,
+                                                                        "timeout": 24
+                                                                        }
+                                                                        },
+                                                                        "exitScript": {
+                                                                        "enabled": true
+                                                                        },
+                                                                        "popUnder": {
+                                                                        "enabled": true
+                                                                        }
+                                                                        };
+                                                                        var script = document.createElement('script');
+                                                                        script.async = true;
+                                                                        script.src = '//cdn.shorte.st/link-converter.min.js';
+                                                                        script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+                                                                        var entry = document.getElementsByTagName('script')[0];
+                                                                        entry.parentNode.insertBefore(script, entry);
+                                                                        })();
+                                                                        //]]></script>
 
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
