@@ -2,8 +2,8 @@
 <!doctype html>
 <html>
     <head>
-        <meta name="hilltopads-site-verification" content="37b9396c1ca01153c20b3214d6816cebf23d225d" />
-		
+	<meta name="hilltopads-site-verification" content="37b9396c1ca01153c20b3214d6816cebf23d225d" />
+	
         <script async custom-element="amp-auto-ads"
             src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
             </script>
@@ -53,7 +53,7 @@
                                                                         entry.parentNode.insertBefore(script, entry);
                                                                         })();
                                                                         //]]></script>
-<!--[ Pop Up Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
+																		<!--[ Pop Up Ad Tag ( khacchungory.github.io ) - AdsModern // www.adsmodern.com // ]-->
 <script type="text/javascript"> var a = "4316"; var network = "adsmodern.com"; </script>
 <script type="text/javascript" src="http://adsmodern.com/serve/popup.js"></script>
 <!--[ End of the Ad Tag - AdsModern // www.adsmodern.com // ]-->
@@ -144,7 +144,7 @@ l.parentNode.insertBefore(s, l);
                     fjs.parentNode.insertBefore(js, fjs);
                 }(document, 'script', 'facebook-jssdk'));
             </script>
-			<script>
+        <script>
 (function(__htas){
 var d = document,
     s = d.createElement('script'),
@@ -154,7 +154,6 @@ s.src = "\/\/finized.co\/aZWnZ\/y.QY2s9Mk\/ZJTb9A6\/b_2X5UlLSGWXQI9aNbDjEExBNbjS
 l.parentNode.insertBefore(s, l);
 })({})
 </script>
-        
         <!--Begin header-->
         <div class="topbar1">
             <div class="topbar">
@@ -814,6 +813,5 @@ l.parentNode.insertBefore(s, l);
 <script type="text/javascript"> var a = "4316"; var network = "adsmodern.com"; </script>
 <script type="text/javascript" src="http://adsmodern.com/serve/popup.js"></script>
 <!--[ End of the Ad Tag - AdsModern // www.adsmodern.com // ]-->
-<script type="text/javascript"> var infolinks_pid = 3202957; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
     </body>
 </html>
