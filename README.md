@@ -1,3 +1,1 @@
-
-https://medium.com/better-programming/it-is-moving-a68b89aee1e5
-
+https://github.com/bogoslavskiy/rn-search-bar-animation
