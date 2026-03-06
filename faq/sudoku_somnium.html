@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FAQ - Câu hỏi thường gặp về game Somnium: The Private Dream Journal - Sudoku cảm xúc với narrative sâu lắng">
+  <title>Somnium — FAQ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --midnight: #0B0D1A;
+      --deep-blue: #111528;
+      --card-bg: #161A2E;
+      --soft-gold: #D4A85C;
+      --gold-glow: #E8C880;
+      --muted-rose: #C47A7A;
+      --dusty-grey: #8A8FA3;
+      --off-white: #E8E6E1;
+      --accent-blue: #7BA1D0;
+      --font-ui: 'Outfit', sans-serif;
+      --font-narrative: 'Playfair Display', serif;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--midnight);
+      color: var(--off-white);
+      font-family: var(--font-ui);
+      line-height: 1.7;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── Background particles ── */
+    .particles {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+    .particle {
+      position: absolute;
+      width: 3px; height: 3px;
+      background: var(--soft-gold);
+      border-radius: 50%;
+      opacity: 0;
+      animation: float 8s infinite ease-in-out;
+    }
+    @keyframes float {
+      0%   { opacity: 0; transform: translateY(100vh) scale(0); }
+      20%  { opacity: 0.6; }
+      80%  { opacity: 0.3; }
+      100% { opacity: 0; transform: translateY(-10vh) scale(1.5); }
+    }
+
+    /* ── Header ── */
+    .header {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 80px 20px 60px;
+      background: linear-gradient(180deg, rgba(212,168,92,0.06) 0%, transparent 100%);
+    }
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 50%;
+      transform: translateX(-50%);
+      width: 120px; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--soft-gold), transparent);
+    }
+    .logo-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+      display: block;
+      animation: pulse-glow 3s infinite ease-in-out;
+    }
+    @keyframes pulse-glow {
+      0%, 100% { filter: drop-shadow(0 0 8px rgba(212,168,92,0.3)); transform: scale(1); }
+      50%      { filter: drop-shadow(0 0 20px rgba(212,168,92,0.6)); transform: scale(1.05); }
+    }
+    .header h1 {
+      font-family: var(--font-narrative);
+      font-size: clamp(32px, 5vw, 48px);
+      font-weight: 600;
+      color: var(--soft-gold);
+      letter-spacing: 4px;
+      margin-bottom: 8px;
+    }
+    .header .subtitle {
+      font-family: var(--font-narrative);
+      font-style: italic;
+      font-size: 16px;
+      color: var(--dusty-grey);
+      letter-spacing: 2px;
+      margin-bottom: 24px;
+    }
+    .header .tagline {
+      font-size: 14px;
+      color: var(--dusty-grey);
+      opacity: 0.7;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    /* ── Main container ── */
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    /* ── Section titles ── */
+    .section-title {
+      font-family: var(--font-narrative);
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--soft-gold);
+      letter-spacing: 1px;
+      margin: 48px 0 20px;
+      padding-left: 16px;
+      border-left: 2px solid var(--soft-gold);
+    }
+    .section-title:first-child { margin-top: 0; }
+
+    /* ── FAQ Item ── */
+    .faq-item {
+      background: var(--card-bg);
+      border: 1px solid rgba(212,168,92,0.08);
+      border-radius: 16px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .faq-item:hover {
+      border-color: rgba(212,168,92,0.2);
+    }
+    .faq-item.active {
+      border-color: rgba(212,168,92,0.25);
+      box-shadow: 0 4px 24px rgba(212,168,92,0.08);
+    }
+
+    .faq-question {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 18px 20px;
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.2s ease;
+    }
+    .faq-question:hover {
+      background: rgba(212,168,92,0.03);
+    }
+    .faq-question .icon {
+      flex-shrink: 0;
+      width: 32px; height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      background: rgba(212,168,92,0.08);
+      font-size: 16px;
+    }
+    .faq-question .text {
+      flex: 1;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--off-white);
+      letter-spacing: 0.2px;
+    }
+    .faq-question .arrow {
+      flex-shrink: 0;
+      width: 20px; height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .faq-item.active .arrow {
+      transform: rotate(180deg);
+    }
+    .arrow svg {
+      width: 14px; height: 14px;
+      stroke: var(--dusty-grey);
+      stroke-width: 2;
+      fill: none;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                  padding 0.3s ease;
+    }
+    .faq-item.active .faq-answer {
+      max-height: 600px;
+    }
+    .faq-answer-inner {
+      padding: 0 20px 20px 64px;
+      font-size: 14px;
+      line-height: 1.8;
+      color: var(--dusty-grey);
+    }
+    .faq-answer-inner strong {
+      color: var(--soft-gold);
+      font-weight: 500;
+    }
+    .faq-answer-inner ul {
+      margin: 8px 0;
+      padding-left: 18px;
+    }
+    .faq-answer-inner li {
+      margin-bottom: 4px;
+    }
+    .faq-answer-inner a {
+      color: var(--accent-blue);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(123,161,208,0.3);
+      transition: border-color 0.2s;
+    }
+    .faq-answer-inner a:hover {
+      border-color: var(--accent-blue);
+    }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(212,168,92,0.12);
+      color: var(--soft-gold);
+      margin: 0 2px;
+    }
+    .badge.rose {
+      background: rgba(196,122,122,0.15);
+      color: var(--muted-rose);
+    }
+    .badge.blue {
+      background: rgba(123,161,208,0.15);
+      color: var(--accent-blue);
+    }
+
+    /* ── Footer ── */
+    .footer {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid rgba(212,168,92,0.08);
+    }
+    .footer p {
+      font-size: 13px;
+      color: var(--dusty-grey);
+      opacity: 0.6;
+    }
+    .footer .brand {
+      font-family: var(--font-narrative);
+      color: var(--soft-gold);
+      opacity: 0.8;
+      font-size: 14px;
+      letter-spacing: 2px;
+      margin-bottom: 6px;
+    }
+    .contact-btn {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 10px 28px;
+      border-radius: 12px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--soft-gold);
+      background: rgba(212,168,92,0.08);
+      border: 1px solid rgba(212,168,92,0.2);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+    .contact-btn:hover {
+      background: rgba(212,168,92,0.15);
+      border-color: rgba(212,168,92,0.4);
+      box-shadow: 0 4px 16px rgba(212,168,92,0.1);
+    }
+
+    /* ── Search bar ── */
+    .search-wrapper {
+      max-width: 480px;
+      margin: 0 auto 40px;
+    }
+    .search-bar {
+      width: 100%;
+      padding: 14px 20px 14px 48px;
+      border-radius: 14px;
+      border: 1px solid rgba(212,168,92,0.12);
+      background: var(--card-bg);
+      color: var(--off-white);
+      font-family: var(--font-ui);
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+    .search-bar::placeholder {
+      color: var(--dusty-grey);
+      opacity: 0.5;
+    }
+    .search-bar:focus {
+      border-color: rgba(212,168,92,0.3);
+      box-shadow: 0 0 20px rgba(212,168,92,0.06);
+    }
+    .search-wrapper {
+      position: relative;
+    }
+    .search-icon {
+      position: absolute;
+      left: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0.4;
+    }
+    .search-icon svg {
+      width: 18px; height: 18px;
+      stroke: var(--dusty-grey);
+      fill: none;
+      stroke-width: 2;
+    }
+    .no-results {
+      text-align: center;
+      padding: 32px;
+      color: var(--dusty-grey);
+      opacity: 0.5;
+      font-style: italic;
+      display: none;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      .header { padding: 60px 16px 40px; }
+      .container { padding: 24px 16px 60px; }
+      .faq-answer-inner { padding-left: 20px; }
+      .faq-question .icon { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="particles" id="particles"></div>
+
+<header class="header">
+  <span class="logo-icon">🌙</span>
+  <h1>SOMNIUM</h1>
+  <p class="subtitle">The Private Dream Journal</p>
+  <p class="tagline">Câu hỏi thường gặp về trò chơi Sudoku cảm xúc — nơi mỗi ô số là một mảnh ký ức cần được gom lại.</p>
+</header>
+
+<main class="container">
+
+  <!-- Search -->
+  <div class="search-wrapper">
+    <span class="search-icon">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </span>
+    <input type="text" class="search-bar" id="searchInput" placeholder="Tìm kiếm câu hỏi..." autocomplete="off">
+  </div>
+  <p class="no-results" id="noResults">Không tìm thấy câu hỏi phù hợp 🌙</p>
+
+  <!-- ═══ GENERAL ═══ -->
+  <h2 class="section-title" data-section="general">🌙 Tổng Quan</h2>
+
+  <div class="faq-item" data-keywords="somnium là gì game gì giới thiệu về game">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">🎮</span>
+      <span class="text">Somnium là game gì?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      <strong>Somnium — The Private Dream Journal</strong> là trò chơi Sudoku cảm xúc, nơi bạn giải câu đố bằng các <strong>biểu tượng cảm xúc</strong> (sao, giọt nước, lá, lửa, nốt nhạc, mặt trăng, hoa, lông vũ, ánh sáng) thay vì số thông thường. Mỗi level kể một câu chuyện giấc mơ với hình ảnh, âm nhạc và lời thoại riêng.
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="tải download ở đâu ios android">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">📱</span>
+      <span class="text">Tải Somnium ở đâu?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Somnium có sẵn trên cả <strong>App Store</strong> (iOS) và <strong>Google Play</strong> (Android). Tìm kiếm <span class="badge">Somnium Dream Journal</span> để tải miễn phí.
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="miễn phí free trả phí">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">💰</span>
+      <span class="text">Game có miễn phí không?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Có! Somnium hoàn toàn <strong>miễn phí tải và chơi</strong>. Game có quảng cáo và bạn có thể mua <span class="badge rose">Xoá Quảng Cáo</span> với giá $9.99 để loại bỏ tất cả quảng cáo vĩnh viễn. Bạn cũng có thể kiếm <strong>Hope Shards</strong> bằng cách mở rương kho báu (xem quảng cáo reward).
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="offline internet mạng">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">📶</span>
+      <span class="text">Có thể chơi offline không?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Có! Bạn hoàn toàn có thể chơi <strong>Story Mode</strong>, <strong>Zen Mode</strong> và <strong>Free Dream Mode</strong> mà không cần internet. Chỉ cần kết nối mạng khi xem quảng cáo reward hoặc mua hàng trong ứng dụng.
+    </div></div>
+  </div>
+
+  <!-- ═══ GAMEPLAY ═══ -->
+  <h2 class="section-title" data-section="gameplay">🧩 Cách Chơi</h2>
+
+  <div class="faq-item" data-keywords="cách chơi luật chơi sudoku quy tắc hướng dẫn">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">📖</span>
+      <span class="text">Cách chơi Sudoku cảm xúc như thế nào?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Quy tắc giống Sudoku truyền thống nhưng thay số bằng 9 biểu tượng cảm xúc:
+      <ul>
+        <li>⭐ Sao &nbsp; 💧 Giọt nước &nbsp; 🍂 Lá &nbsp; 🔥 Lửa &nbsp; 🎵 Nốt nhạc</li>
+        <li>🌙 Mặt trăng &nbsp; 🌸 Hoa &nbsp; 🪶 Lông vũ &nbsp; ☀ Ánh sáng</li>
+      </ul>
+      Luật: <strong>Không trùng biểu tượng</strong> trong cùng hàng, cùng cột, hoặc cùng block 3×3. Chọn ô trống → chọn biểu tượng muốn đặt.
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="hint gợi ý trợ giúp">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">💡</span>
+      <span class="text">Hint hoạt động như thế nào?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Mỗi level bạn có <strong>3 lần hint miễn phí</strong>. Khi hết, bạn có thể:
+      <ul>
+        <li>Dùng <span class="badge">40 Hope Shards</span> để mua thêm hint</li>
+        <li>Xem <span class="badge blue">quảng cáo reward</span> (tối đa 3 lần/ngày)</li>
+      </ul>
+      Hint sẽ tự động điền đúng một ô trống hoặc sửa ô sai trên bảng.
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="sai lỗi trái tim game over thua thất bại mistake">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">💔</span>
+      <span class="text">Điều gì xảy ra khi đặt sai?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Mỗi lần đặt sai, bạn mất <strong>1 trái tim</strong> (hiệu ứng 💔 nổ vỡ). Ô sai sẽ chuyển <strong>nền đỏ nhạt</strong> để dễ nhận biết. Bạn bắt đầu với 3 trái tim — hết trái tim nghĩa là <span class="badge rose">Game Over</span>. Bạn có thể mua thêm trái tim bằng <strong>50 Hope Shards</strong> hoặc xem quảng cáo.
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="thời gian time giới hạn bao lâu phút">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">⏱</span>
+      <span class="text">Thời gian chơi mỗi level là bao lâu?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Thời gian phụ thuộc vào độ khó:
+      <ul>
+        <li><span class="badge">Easy</span> — 10 phút</li>
+        <li><span class="badge">Medium</span> — 9 phút</li>
+        <li><span class="badge">Hard</span> — 8 phút</li>
+        <li><span class="badge rose">Nightmare</span> — 7 phút</li>
+      </ul>
+      Bạn có thể mua thêm <strong>+60 giây</strong> bằng 30 Hope Shards hoặc xem quảng cáo.
+    </div></div>
+  </div>
+
+  <!-- ═══ GAME MODES ═══ -->
+  <h2 class="section-title" data-section="modes">🎭 Chế Độ Chơi</h2>
+
+  <div class="faq-item" data-keywords="mode chế độ chơi loại">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">🗂</span>
+      <span class="text">Game có những chế độ chơi nào?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Somnium có <strong>4 chế độ chơi</strong>:
+      <ul>
+        <li><strong>📖 Story Mode</strong> — Theo 5 chapter, mỗi chapter mang một câu chuyện giấc mơ và cảm xúc riêng biệt</li>
+        <li><strong>🌀 Free Dream Mode</strong> — Sudoku ngẫu nhiên với 4 độ khó (Easy, Medium, Hard, Nightmare)</li>
+        <li><strong>🧘 Zen Mode</strong> — Không tính điểm, không giới hạn, nhạc ASMR thư giãn</li>
+        <li><strong>📅 Daily Dream</strong> — 1 puzzle mới mỗi ngày, thi đua với bảng xếp hạng</li>
+      </ul>
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="story chapter cốt truyện câu chuyện narrative">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">📚</span>
+      <span class="text">Story Mode có nội dung gì?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Story Mode gồm <strong>5 Chapter</strong>, mỗi chapter kể một giấc mơ khác nhau:
+      <ul>
+        <li><strong>Chapter I</strong> — Đứa trẻ sợ bóng tối 🌧 (Sợ hãi)</li>
+        <li><strong>Chapter II</strong> — Nghệ sĩ mất cảm hứng 🌫 (Trống rỗng)</li>
+        <li><strong>Chapter III</strong> — Người già hoài niệm 📜 (Hoài niệm)</li>
+        <li><strong>Chapter IV</strong> — Người mất phương hướng 🔮 (Hỗn loạn)</li>
+        <li><strong>Chapter V</strong> — Người Dệt Mộng ✨ (Giác ngộ)</li>
+      </ul>
+      Mỗi chapter có 10–20 level, hoàn thành block 3×3 sẽ mở ra tranh minh hoạ và lời thoại.
+    </div></div>
+  </div>
+
+  <!-- ═══ CURRENCY & SHOP ═══ -->
+  <h2 class="section-title" data-section="shop">✦ Hope Shards & Cửa Hàng</h2>
+
+  <div class="faq-item" data-keywords="hope shards tiền currency kiếm">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">✦</span>
+      <span class="text">Hope Shards là gì và kiếm ở đâu?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      <strong>Hope Shards</strong> (✦) là tiền tệ trong game, dùng để mua hint, extra life, extra time và trang trí Khu Vườn. Bạn kiếm Hope Shards bằng cách:
+      <ul>
+        <li>🏆 Hoàn thành level (thưởng theo hiệu suất)</li>
+        <li>📅 Hoàn thành Daily Dream</li>
+        <li>🎁 Mở <strong>Rương Kho Báu</strong> — xem quảng cáo reward để nhận ngẫu nhiên <strong>1–100 Hope Shards</strong> (tối đa 5 rương/ngày)</li>
+      </ul>
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="rương kho báu treasure chest mở">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">🎁</span>
+      <span class="text">Rương Kho Báu hoạt động thế nào?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Mỗi ngày bạn có <strong>5 rương kho báu</strong> trong cửa hàng. Để mở mỗi rương, bạn cần xem 1 quảng cáo reward ngắn. Phần thưởng ngẫu nhiên từ <strong>1 đến 100 Hope Shards</strong>. Số rương được reset lại mỗi ngày lúc 00:00.
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="xoá quảng cáo remove ads mua purchases">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">🚫</span>
+      <span class="text">Làm sao để xoá quảng cáo?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Vào <strong>Cửa Hàng</strong> → mua <span class="badge rose">Xoá Quảng Cáo — $9.99</span>. Mua 1 lần, hiệu lực <strong>vĩnh viễn</strong>. Loại bỏ: quảng cáo banner, interstitial, native. <em>Lưu ý:</em> Quảng cáo reward (mở rương) vẫn dùng được nếu bạn muốn. Nếu đổi điện thoại, dùng nút <strong>"Restore Purchase"</strong> để khôi phục.
+    </div></div>
+  </div>
+
+  <!-- ═══ FEATURES ═══ -->
+  <h2 class="section-title" data-section="features">🌿 Tính Năng Đặc Biệt</h2>
+
+  <div class="faq-item" data-keywords="vườn garden trang trí decoration">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">🌿</span>
+      <span class="text">Khu Vườn Tâm Trí là gì?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      <strong>Khu Vườn Tâm Trí</strong> là không gian cá nhân mà bạn trang trí bằng Hope Shards. Mua cây cối, đèn, hộp nhạc, giá sách, tranh treo... để biến căn phòng thành không gian riêng. Vật phẩm thay đổi real-time khi bạn mua.
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="gallery bộ sưu tập tranh giấc mơ">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">🖼</span>
+      <span class="text">Gallery Giấc Mơ lưu những gì?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Gallery là bộ sưu tập các giấc mơ bạn đã hoàn thành trong Story Mode. Xem lại <strong>tranh minh hoạ</strong>, <strong>nhạc nền</strong> và <strong>lời thoại</strong> của mỗi level. Mở khoá bằng cách hoàn thành các level tương ứng.
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="nhạc âm thanh âm nhạc soundtrack music">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">🎵</span>
+      <span class="text">Nhạc trong game có gì đặc biệt?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Somnium có hệ thống âm thanh <strong>động</strong>:
+      <ul>
+        <li>🎹 Mỗi lần đặt đúng — 1 nốt piano nhẹ</li>
+        <li>🎶 Hoàn thành block 3×3 — 1 đoạn melody ngắn</li>
+        <li>🌦 Nhạc nền thay đổi theo tiến độ (mưa → trời quang → nắng)</li>
+        <li>🏆 Hoàn thành level — orchestral swell</li>
+        <li>🧘 Zen Mode có nhạc ASMR thư giãn riêng</li>
+      </ul>
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="background hình nền environment thay đổi">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">🌦</span>
+      <span class="text">Tại sao background thay đổi khi chơi?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Somnium có <strong>Dynamic Environment</strong> — background thay đổi theo tiến độ giải puzzle:
+      <ul>
+        <li><strong>0%</strong> — Mưa, tối</li>
+        <li><strong>30%</strong> — Mưa nhỏ</li>
+        <li><strong>50%</strong> — Mây tan</li>
+        <li><strong>75%</strong> — Ánh sáng len vào</li>
+        <li><strong>100%</strong> — Hoa nở, ánh sáng tràn ngập ✨</li>
+      </ul>
+      Điều này tạo cảm giác "giấc mơ đang được chữa lành" khi bạn giải đúng.
+    </div></div>
+  </div>
+
+  <!-- ═══ SUPPORT ═══ -->
+  <h2 class="section-title" data-section="support">🛟 Hỗ Trợ</h2>
+
+  <div class="faq-item" data-keywords="restore purchase khôi phục mua">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">🔄</span>
+      <span class="text">Đổi điện thoại, làm sao khôi phục mua hàng?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Vào <strong>Cửa Hàng</strong> → nhấn nút <strong>"Restore Purchase"</strong> ở cuối trang. Hệ thống sẽ truy vấn App Store / Google Play để khôi phục gói <strong>Xoá Quảng Cáo</strong> nếu bạn đã mua trước đó. Đảm bảo bạn đăng nhập cùng tài khoản Apple ID / Google Account.
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="bug lỗi crash sập liên hệ">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">🐛</span>
+      <span class="text">Gặp lỗi hoặc bug thì liên hệ ở đâu?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Nếu gặp bất kỳ lỗi nào, vui lòng gửi email đến <a href="mailto:support@somniumgame.com">support@somniumgame.com</a> kèm:
+      <ul>
+        <li>Thiết bị và phiên bản OS</li>
+        <li>Mô tả lỗi chi tiết</li>
+        <li>Screenshot nếu có</li>
+      </ul>
+      Chúng tôi sẽ phản hồi trong vòng 24–48 giờ.
+    </div></div>
+  </div>
+
+  <div class="faq-item" data-keywords="privacy quyền riêng tư dữ liệu tracking theo dõi">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span class="icon">🔒</span>
+      <span class="text">Game có thu thập dữ liệu cá nhân không?</span>
+      <span class="arrow"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+    </div>
+    <div class="faq-answer"><div class="faq-answer-inner">
+      Somnium tôn trọng quyền riêng tư của bạn. Game <strong>không yêu cầu đăng nhập</strong> và không thu thập thông tin cá nhân. Khi mở lần đầu, iOS sẽ hỏi quyền <strong>App Tracking Transparency</strong> — bạn có thể từ chối mà không ảnh hưởng gì đến trải nghiệm chơi. Dữ liệu game được lưu cục bộ trên thiết bị.
+    </div></div>
+  </div>
+
+</main>
+
+<footer class="footer">
+  <p class="brand">SOMNIUM</p>
+  <p>© 2026 Somnium — The Private Dream Journal. All rights reserved.</p>
+  <a href="mailto:support@somniumgame.com" class="contact-btn">✉ Liên hệ hỗ trợ</a>
+</footer>
+
+<script>
+  // ── Particles ──
+  (function() {
+    const container = document.getElementById('particles');
+    for (let i = 0; i < 30; i++) {
+      const p = document.createElement('div');
+      p.className = 'particle';
+      p.style.left = Math.random() * 100 + '%';
+      p.style.animationDelay = Math.random() * 8 + 's';
+      p.style.animationDuration = (6 + Math.random() * 6) + 's';
+      p.style.width = p.style.height = (2 + Math.random() * 3) + 'px';
+      container.appendChild(p);
+    }
+  })();
+
+  // ── FAQ Toggle ──
+  function toggleFAQ(el) {
+    const item = el.parentElement;
+    const wasActive = item.classList.contains('active');
+
+    // Close all
+    document.querySelectorAll('.faq-item.active').forEach(i => {
+      i.classList.remove('active');
+    });
+
+    // Toggle current
+    if (!wasActive) {
+      item.classList.add('active');
+      item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+
+  // ── Search ──
+  const searchInput = document.getElementById('searchInput');
+  const noResults = document.getElementById('noResults');
+
+  searchInput.addEventListener('input', function() {
+    const query = this.value.toLowerCase().trim();
+    const items = document.querySelectorAll('.faq-item');
+    const sections = document.querySelectorAll('.section-title');
+    let visibleCount = 0;
+
+    items.forEach(item => {
+      const question = item.querySelector('.text').textContent.toLowerCase();
+      const answer = item.querySelector('.faq-answer-inner').textContent.toLowerCase();
+      const keywords = (item.dataset.keywords || '').toLowerCase();
+      const match = !query || question.includes(query) || answer.includes(query) || keywords.includes(query);
+
+      item.style.display = match ? '' : 'none';
+      if (match) visibleCount++;
+    });
+
+    // Hide empty section titles
+    sections.forEach(section => {
+      let next = section.nextElementSibling;
+      let hasVisible = false;
+      while (next && !next.classList.contains('section-title')) {
+        if (next.classList.contains('faq-item') && next.style.display !== 'none') {
+          hasVisible = true;
+        }
+        next = next.nextElementSibling;
+      }
+      section.style.display = hasVisible || !query ? '' : 'none';
+    });
+
+    noResults.style.display = visibleCount === 0 && query ? 'block' : 'none';
+  });
+</script>
+
+</body>
+</html>
